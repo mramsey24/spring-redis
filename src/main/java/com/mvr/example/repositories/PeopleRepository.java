@@ -1,4 +1,4 @@
-package com.mvr.example.models.repositories;
+package com.mvr.example.repositories;
 
 import com.mvr.example.models.Person;
 import com.redis.om.spring.repository.RedisDocumentRepository;
