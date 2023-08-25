@@ -22,8 +22,10 @@ public class SpringRedisIT {
               .andExpect(status().isOk());
         }
 
+    @Disabled ("Not Ready yet")
     @Test void whenGET_Specific_Person_thenStatus200()
         throws Exception {
-          throw new Exception ("Not Implemented")
+          mvc.perform(get("/api/v1/people/1")
+          .contentType(MediaType.APPLICTION_JSON))
         }
 }
