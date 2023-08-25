@@ -13,6 +13,9 @@ public class SpringRedisIT {
     @Test
     public void whenGetAllPeople_thenStatus200()
         throws Exception {
-            throw new Exception("Implement me");
+            
+            
+            mvc.perform(get("/api/v1/people/all")
+              .contentType(MediaType.APPLICATION_JSON))
         }
 }
