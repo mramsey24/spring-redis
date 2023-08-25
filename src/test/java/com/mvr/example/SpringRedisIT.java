@@ -11,8 +11,16 @@ public class SpringRedisIT {
     MockMvc mvc;
 
     @Test
-    public void whenGetAllPeople_thenStatus200()
+    public void whenGET_All_People_thenStatus200()
         throws Exception {
-            throw new Exception("Implement me");
+                        
+            mvc.perform(get("/api/v1/people/all")
+              .contentType(MediaType.APPLICATION_JSON))
+              .andExpect(status().isOk());
+        }
+
+    @Test void whenGET_Specific_Person_thenStatus200()
+        throws Exception {
+          throw new Exception ("Not Implemented")
         }
 }
