@@ -15,7 +15,7 @@ public class SpringRedisIT {
         throws Exception {
                         
             mvc.perform(get("/api/v1/people/all")
-              .contentType(MediaType.APPLICATION_JSON)
+              .contentType(MediaType.APPLICATION_JSON))
               .andExpect(status().isOk());)
         }
 }
