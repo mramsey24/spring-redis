@@ -1,6 +1,9 @@
 
 package com.mvr.example
 
+/*
+ * Integration Test for Spring Redist application
+ */
 @SpringBootTest(
   webEnvironment = SpringBootTest.WebEnvironment.MOCK,
   classes = SpringRedisApplication.class)
