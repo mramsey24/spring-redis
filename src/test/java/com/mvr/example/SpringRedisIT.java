@@ -1,5 +1,5 @@
 
-package com.mvr.example
+package com.mvr.example;
 
 @SpringBootTest(
   webEnvironment = SpringBootTest.WebEnvironment.MOCK,
