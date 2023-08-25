@@ -11,7 +11,7 @@ public class SpringRedisIT {
     MockMvc mvc;
 
     @Test
-    public void whenGetAllPeople_thenStatus200()
+    public void whenGET_All_People_thenStatus200()
         throws Exception {
                         
             mvc.perform(get("/api/v1/people/all")
