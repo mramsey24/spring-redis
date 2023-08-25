@@ -1,6 +1,8 @@
 
 package com.mvr.example;
 
+import org.springframework.boot.test.context.SpringBootTest;
+
 @SpringBootTest(
   webEnvironment = SpringBootTest.WebEnvironment.MOCK,
   classes = SpringRedisApplication.class)
