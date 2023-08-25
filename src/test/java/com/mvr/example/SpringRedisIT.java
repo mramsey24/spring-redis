@@ -18,4 +18,9 @@ public class SpringRedisIT {
               .contentType(MediaType.APPLICATION_JSON))
               .andExpect(status().isOk());
         }
+
+    @Test void whenGET_Specific_Person_thenStatus200()
+        throws Exception {
+          throw new Exception ("Not Implemented")
+        }
 }
