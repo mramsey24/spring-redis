@@ -26,6 +26,6 @@ public class SpringRedisIT {
     @Test void whenGET_Specific_Person_thenStatus200()
         throws Exception {
           mvc.perform(get("/api/v1/people/1")
-          .contentType(MediaType.APPLICTION_JSON))
+          .contentType(MediaType.APPLICATION_JSON))
         }
 }
