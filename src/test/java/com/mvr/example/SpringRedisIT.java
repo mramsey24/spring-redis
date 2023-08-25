@@ -1,5 +1,9 @@
 
-package com.mvr.example
+package com.mvr.example;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest(
   webEnvironment = SpringBootTest.WebEnvironment.MOCK,
