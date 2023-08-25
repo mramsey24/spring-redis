@@ -16,6 +16,6 @@ public class SpringRedisIT {
                         
             mvc.perform(get("/api/v1/people/all")
               .contentType(MediaType.APPLICATION_JSON)
-              Expect(status().isOk());)
+              .andExpect(status().isOk());)
         }
 }
